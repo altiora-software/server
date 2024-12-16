@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",          // Directorio donde se generarán los archivos compilados
-    "rootDir": "./src",          // Directorio raíz de tus archivos TypeScript
-    "module": "commonjs",        // Módulo usado en Node.js
-    "target": "es6",             // Versión de ECMAScript objetivo
-    "strict": true,              // Activa las reglas estrictas de TypeScript
-    "esModuleInterop": true      // Permite importar módulos con exportaciones por defecto
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
   },
-  "include": ["src"],            // Incluye todos los archivos dentro de "src"
-  "exclude": ["node_modules"]    // Excluye la carpeta "node_modules"
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
